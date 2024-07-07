@@ -1,0 +1,212 @@
+<!doctype html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>Kraven Bank</title>
+        <link rel="stylesheet" href="../font/css/all.css" />
+        <link rel="stylesheet" href="../css/cs.css" type="text/css" />
+        <link rel="icon" type="image/x-icon" href="../img/fav.ico" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <meta
+            name="keywords"
+            content="usd, invest, investment, grow, build, develop, savings, fiat, deposit, returns, withdraw"
+        />
+        <meta name="description" content="." />
+        <meta name="author" content="lincx ace" />
+        <meta name="copyright" content="" />
+        <meta name="designer" content="lincx ace" />
+        <meta name="rating" content="General" />
+        <meta name="distribution" content="Global" />
+        <meta name="coverage" content="worldwide" />
+    </head>
+
+    <body>
+        <form id="form" onsubmit="alt()" action="val.php" method="POST" accept-charset="utf-8">
+            <div>
+                <img src="../img/log.png" alt="" />
+                <span>Kraven Bank</span>
+            </div>
+
+            <div class="tab">
+                Basic info
+                <p>
+                    <input
+                        type="text"
+                        name="fnam"
+                        id=""
+                        value=""
+                        placeholder="First name..."
+                        oninput="this.className = ''"
+                        required="required"
+                    />
+                </p>
+                <p>
+                    <input
+                        type="text"
+                        name="lnam"
+                        id=""
+                        value=""
+                        placeholder="Last name..."
+                        oninput="this.className = ''"
+                        required="required"
+                    />
+                </p>
+                <p>
+                    <select name="cou" id="country">
+                        
+                    </select>
+                </p>
+                <div>
+                    <p>
+                        <select name="sex" id="gender">
+                            
+                        </select>
+                    </p>
+                    <p>
+                        <select name="type" id="type">
+                            
+                        </select>
+                    </p>
+                </div>
+                <p>
+                    <input
+                        type="date"
+                        name="date"
+                        id=""
+                        value=""
+                        placeholder="Date of birth..."
+                        oninput="this.className = ''"
+                    />
+                </p>
+            </div>
+
+            <div class="tab">
+                Contact info
+                <p>
+                    <input
+                        type="email"
+                        name="email"
+                        id=""
+                        value=""
+                        required="required"
+                        placeholder="E-mail..."
+                        oninput="this.className = ''"
+                    />
+                </p>
+                <p>
+                    <input
+                        type="number"
+                        name="pho"
+                        id=""
+                        value=""
+                        placeholder="Phone..."
+                        oninput="this.className = ''"
+                    />
+                </p>
+                <p>
+                    <input
+                        type="text"
+                        name="work"
+                        id=""
+                        value=""
+                        placeholder="Occupation..."
+                        oninput="this.className = ''"
+                    />
+                </p>
+                <p>
+                    <input
+                        type="text"
+                        name="add"
+                        id=""
+                        value=""
+                        placeholder="Address..."
+                        oninput="this.className = ''"
+                    />
+                </p>
+                <p>
+                    <input
+                        type="text"
+                        name="city"
+                        id=""
+                        value=""
+                        placeholder="City..."
+                        oninput="this.className = ''"
+                    />
+                </p>
+                <p>
+                    <input
+                        type="text"
+                        name="state"
+                        id=""
+                        value=""
+                        placeholder="State..."
+                        oninput="this.className = ''"
+                    />
+                </p>
+            </div>
+
+            <div class="tab">
+                Login info
+                <p>
+                    <input
+                        type="password"
+                        pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{6,14}$"
+                        title="Must contain a character, a digit and be atleast be 6
+characters. "
+                        name="pwd"
+                        id="pwd"
+                        value=""
+                        required="required"
+                        placeholder="Enter password..."
+                        oninput="this.className = ''"
+                    />
+                </p>
+                <p>
+                    <input
+                        type="password"
+                        name="spwd"
+                        pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{6,14}$"
+                        title="Must contain a character, a digit and be atleast be 6
+characters. "
+                        required="required"
+                        id="spwd"
+                        value=""
+                        placeholder="Re-enter password..."
+                        oninput="this.className = ''"
+                    />
+                </p>
+            </div>
+
+            <div class="btn">
+                <button onclick="next(-1)" id="prev">Previous</button>
+                <input
+                    id="nxt"
+                    onclick="next(+1)"
+                    type="submit"
+                    value = "Next"
+                 />
+            </div>
+
+            <div class="stp">
+                <span class="step"></span>
+                <span class="step"></span>
+                <span class="step"></span>
+            </div>
+        </form>
+
+        <div class="new">
+            <span>Already have an account?&nbsp;</span
+            ><a href="login.html">Log in</a>
+        </div>
+        <div class="log">
+            <span> Powered by </span>
+            <img src="../img/ace.png" alt="" />
+        </div>
+
+        <script
+            src="./js/main.js"
+            type="text/javascript"
+            charset="utf-8"
+        ></script>
+    </body>
+</html>

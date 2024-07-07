@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>Kraven</title>
+        <link rel="stylesheet" href="../font/css/all.css" />
+        <link rel="stylesheet" href="../css/cs.css" type="text/css" />
+        <link rel="icon" type="image/x-icon" href="img/fav.ico" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <meta
+            name="keywords"
+            content="usd, invest, investment, grow, build, develop, savings, fiat, deposit, returns, withdraw"
+        />
+        <meta name="description" content="." />
+        <meta name="author" content="lincx ace" />
+        <meta name="copyright" content="" />
+        <meta name="designer" content="lincx ace" />
+        <meta name="rating" content="General" />
+        <meta name="distribution" content="Global" />
+        <meta name="coverage" content="worldwide" />
+    </head>
+
+    <body>
+        <!--div id="smnav">
+            <div id="mav">
+                <i class="fas fa-user"></i>
+                <div>
+                    <div>Wisdom Jaosn</div>
+                    <div>wisdomjason@gmail.com</div>
+                </div>
+                <div onclick="nav()">
+                    <span id="a1"></span>
+                    <span id="a2"></span>
+                </div>
+            </div>
+            <div id="mavl">
+                <div>
+                    <img src="../img/log.svg" alt="" />
+                    <span>solaris</span>
+                </div>
+                <div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div id="bnav">
+            <div id="bavl">
+                <div>
+                    <img src="../img/log.svg" alt="" />
+                    <span>solaris</span>
+                </div>
+                <div></div>
+            </div>
+
+            <div id="hd">
+                <div>Hello, Udochukwu</div>
+                <div>
+                    <i class="fas fa-user"></i>
+                    <div>
+                        <div>Udochukwu wisdom</div>
+                        <div>wisdomjason@gmail.com</div>
+                    </div>
+                </div>
+            </div>
+        </div-->
+
+        <div id="cover">
+            <a onclick="back();" id="back">
+                <i class="fas fa-angle-left"></i>
+                <span>Back</span>
+            </a>
+
+            <div id="usr">
+                <div>Users</div>
+                
+                <div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div id="opt">
+            <div>
+                <div onclick="clvf()">&times;</div>
+                <div>User Details</div>
+                <div>
+                    <form action="val.php" method="POST" accept-charset="utf-8">
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div id="ft">
+            &copy; <span id="date"></span> Solaris Bank PLC (Licensed by
+            Securities and Exchange Commission)
+        </div>
+        <?php
+        if (isset($_GET["sucx"])) {
+    echo "<div id='subt'>Successful</div>";
+}
+
+
+if (isset($_GET["err"])) {
+    echo "<div id='subt' class='subtt'>Error occurred</div>";
+}
+?>
+        <script
+            src="./js/dash.js"
+            type="text/javascript"
+            charset="utf-8"
+        ></script>
+        <script type="text/javascript" charset="utf-8">
+            usr();
+        </script>
+    </body>
+</html>
